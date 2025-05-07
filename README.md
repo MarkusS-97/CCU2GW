@@ -21,10 +21,10 @@ mount -o remount,rw /
 # Dateien herunterladen und Rechte anpassen
 mkdir -p /usr/local/addons/
 mv /firmware/fwmap /firmware/fwmap.orig
-wget --no-check-certificate -O /firmware/fwmap https://raw.githubusercontent.com/jp112sdl/CCU2GW/master/fwmap
-wget --no-check-certificate -O /usr/local/addons/hmlangw https://raw.githubusercontent.com/jp112sdl/CCU2GW/master/hmlangw
-wget --no-check-certificate -O /etc/init.d/S61hmlangw https://raw.githubusercontent.com/jp112sdl/CCU2GW/master/S61hmlangw
-wget --no-check-certificate -O /tmp/crontab https://raw.githubusercontent.com/jp112sdl/CCU2GW/master/crontab
+wget --no-check-certificate -O /firmware/fwmap https://raw.githubusercontent.com/MarkusS-97/CCU2GW/master/fwmap
+wget --no-check-certificate -O /usr/local/addons/hmlangw https://raw.githubusercontent.com/MarkusS-97/CCU2GW/master/hmlangw
+wget --no-check-certificate -O /etc/init.d/S61hmlangw https://raw.githubusercontent.com/MarkusS-97/CCU2GW/master/S61hmlangw
+wget --no-check-certificate -O /tmp/crontab https://raw.githubusercontent.com/MarkusS-97/CCU2GW/master/crontab
 chmod 755 /usr/local/addons/hmlangw
 chmod 755 /etc/init.d/S61hmlangw
 
